@@ -11,7 +11,7 @@ def create_app():
     def index():
         return render_template('index.html')
 
-    @app.rout("/about")
+    @app.route("/about")
     def about():
         return render_template('about.html')
 
